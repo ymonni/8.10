@@ -1,1 +1,9 @@
 #Ymonni Simms 2106646
+name = input()
+newname = name.replace(' ', '')
+rev = newname[::-1]
+
+if rev == newname:
+  print(name, 'is a palindrome')
+else:
+  print(f'{name} is not a palindrome')
